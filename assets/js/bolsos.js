@@ -1,6 +1,6 @@
 const contenedorBolsos = document.getElementById("container-productos");
 
-fetch('../assets/json/bolsos.json')
+fetch('assets/json/bolsos.json')
     .then(res => res.json())
     .then(data => {
         contenedorBolsos.innerHTML = ""; // limpiar antes de agregar
