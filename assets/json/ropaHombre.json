@@ -1,0 +1,76 @@
+{
+    "ropaHombre": [
+        {
+            "id" : 1,
+            "imagen" : "assets/img/camisa1.png",
+            "descripcion": "Camisa",
+            "precio" : 2500
+        },
+        {
+            "id" : 2,
+            "imagen" : "assets/img/camisa2.png",
+            "descripcion": "Camisa",
+            "precio" : 2500
+        },
+        {
+            "id" : 3,
+            "imagen" : "assets/img/camisa3.png",
+            "descripcion": "Camisa",
+            "precio" : 5000
+        },
+        {
+            "id" : 4,
+            "imagen" : "assets/img/camisa4.png",
+            "descripcion": "Camisa",
+            "precio" : 5000
+        },
+        {
+            "id" : 5,
+            "imagen" : "assets/img/camisa5.png",
+            "descripcion": "Camisa",
+            "precio" : 3000
+        },
+        {
+            "id" : 6,
+            "imagen" : "assets/img/camisa6.png",
+            "descripcion": "Camisa",
+            "precio" : 5000
+        },
+        {
+            "id" : 7,
+            "imagen" : "assets/img/sudadera.png",
+            "descripcion": "Sudadera",
+            "precio" : 11000
+        },
+        {
+            "id" : 8,
+            "imagen" : "assets/img/camisa7.png",
+            "descripcion": "Camisa",
+            "precio" : 5000
+        },
+        {
+            "id" : 9,
+            "imagen" : "assets/img/camisa8.png",
+            "descripcion": "Camisa",
+            "precio" : 5000
+        },
+        {
+            "id" : 10,
+            "imagen" : "assets/img/camisa9.png",
+            "descripcion": "Camisa",
+            "precio" : 5000
+        },
+        {
+            "id" : 11,
+            "imagen" : "assets/img/camisa10.png",
+            "descripcion": "Camisa",
+            "precio" : 5000
+        },
+        {
+            "id" : 12,
+            "imagen" : "assets/img/camisa11.png",
+            "descripcion": "Camisa",
+            "precio" : 3000
+        }
+    ]
+}

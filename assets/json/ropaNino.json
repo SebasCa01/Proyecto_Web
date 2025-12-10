@@ -1,0 +1,64 @@
+{
+    "ropaNino": [
+        {
+            "id" : 1,
+            "imagen" : "assets/img/mamelucos.png",
+            "descripcion": "Mameluco",
+            "precio" : 9000
+        },
+        {
+            "id" : 2,
+            "imagen" : "assets/img/mameluco1.png",
+            "descripcion": "Mameluco",
+            "precio" : 5000
+        },
+        {
+            "id" : 3,
+            "imagen" : "assets/img/setnina.png",
+            "descripcion": "Set de niña",
+            "precio" : 5000
+        },
+        {
+            "id" : 4,
+            "imagen" : "assets/img/pijama.png",
+            "descripcion": "Pijama",
+            "precio" : 5000
+        },
+        {
+            "id" : 5,
+            "imagen" : "assets/img/pijama2.png",
+            "descripcion": "Pijama",
+            "precio" : 5000
+        },
+        {
+            "id" : 6,
+            "imagen" : "assets/img/abrigo.png",
+            "descripcion": "Abrigo",
+            "precio" : 7000
+        },
+        {
+            "id" : 7,
+            "imagen" : "assets/img/vestido.png",
+            "descripcion": "Vestido",
+            "precio" : 6600
+        },
+        {
+            "id" : 8,
+            "imagen" : "assets/img/setnina1.png",
+            "descripcion": "Set de niña",
+            "precio" : 5000
+        },
+        {
+            "id" : 9,
+            "imagen" : "assets/img/trajebaño.png",
+            "descripcion": "Traje de baño",
+            "precio" : 6000
+        },
+        {
+            "id" : 10,
+            "imagen" : "assets/img/trajebaño1.png",
+            "descripcion": "Traje de baño",
+            "precio" : 6000
+        }
+    ]
+}

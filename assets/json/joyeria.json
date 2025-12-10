@@ -1,0 +1,76 @@
+{
+    "joyeria": [
+        {
+            "id" : 1,
+            "imagen" : "assets/img/collar.png",
+            "descripcion": "Collar goldfilled",
+            "precio" : 5000
+        },
+        {
+            "id" : 2,
+            "imagen" : "assets/img/collar1.png",
+            "descripcion": "Collar",
+            "precio" : 3800
+        },
+        {
+            "id" : 3,
+            "imagen" : "assets/img/collar2.png",
+            "descripcion": "Collar",
+            "precio" : 6000
+        },
+        {
+            "id" : 4,
+            "imagen" : "assets/img/setjoyeria2.png",
+            "descripcion": "Set de collar y aretes",
+            "precio" : 3000
+        },
+        {
+            "id" : 5,
+            "imagen" : "assets/img/aretes.png",
+            "descripcion": "Aretes",
+            "precio" : 6500
+        },
+        {
+            "id" : 6,
+            "imagen" : "assets/img/argollas.png",
+            "descripcion": "Argollas pequeñas",
+            "precio" : 2500
+        },
+        {
+            "id" : 7,
+            "imagen" : "assets/img/argollas1.png",
+            "descripcion": "Argollas medianas",
+            "precio" : 2200
+        },
+        {
+            "id" : 8,
+            "imagen" : "assets/img/argollas2.png",
+            "descripcion": "Argollas medianas",
+            "precio" : 2200
+        },
+        {
+            "id" : 9,
+            "imagen" : "assets/img/pulsera.png",
+            "descripcion": "Pulsera",
+            "precio" : 10000
+        },
+        {
+            "id" : 10,
+            "imagen" : "assets/img/pulsera1.png",
+            "descripcion": "Pulsera",
+            "precio" : 9000
+        },
+        {
+            "id" : 11,
+            "imagen" : "assets/img/setjoyeria.png",
+            "descripcion": "Set de collar y aretes",
+            "precio" : 3000
+        },
+        {
+            "id" : 12,
+            "imagen" : "assets/img/setjoyeria1.png",
+            "descripcion": "Set de collar y aretes",
+            "precio" : 3000
+        }
+    ]
+}

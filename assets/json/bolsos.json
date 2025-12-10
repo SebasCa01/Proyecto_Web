@@ -1,0 +1,76 @@
+{
+    "bolsos": [
+        {
+            "id" : 1,
+            "imagen" : "assets/img/bolso1.png",
+            "descripcion": "Bolso",
+            "precio" : 10000
+        },
+        {
+            "id" : 2,
+            "imagen" : "assets/img/bolso2.png",
+            "descripcion": "Bolso",
+            "precio" : 7000
+        },
+        {
+            "id" : 3,
+            "imagen" : "assets/img/bolso3.png",
+            "descripcion": "Bolso",
+            "precio" : 5300
+        },
+        {
+            "id" : 4,
+            "imagen" : "assets/img/bolso4.png",
+            "descripcion": "Bolso",
+            "precio" : 8000
+        },
+        {
+            "id" : 5,
+            "imagen" : "assets/img/bolso6.png",
+            "descripcion": "Bolso",
+            "precio" : 8000
+        },
+        {
+            "id" : 6,
+            "imagen" : "assets/img/bolsoverde.jpeg",
+            "descripcion": "Bolso",
+            "precio" : 8000
+        },
+        {
+            "id" : 7,
+            "imagen" : "assets/img/bolso7.png",
+            "descripcion": "Mochila",
+            "precio" : 8000
+        },
+        {
+            "id" : 8,
+            "imagen" : "assets/img/bolso8.png",
+            "descripcion": "Mochila",
+            "precio" : 8000
+        },
+        {
+            "id" : 9,
+            "imagen" : "assets/img/bolso5.png",
+            "descripcion": "Mochila",
+            "precio" : 8000
+        },
+        {
+            "id" : 10,
+            "imagen" : "assets/img/bolsorojo.jpeg",
+            "descripcion": "Mochila",
+            "precio" : 8000
+        },
+        {
+            "id" : 11,
+            "imagen" : "assets/img/canguro.png",
+            "descripcion": "Canguro",
+            "precio" : 3500
+        },
+        {
+            "id" : 12,
+            "imagen" : "assets/img/mochila.png",
+            "descripcion": "Mochila",
+            "precio" : 5300
+        }
+    ]
+}

@@ -1,0 +1,512 @@
+/*navbar start*/
+.container-navbar {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar {
+  background: transparent;
+  padding: 1rem 2rem;
+}
+
+.logo-text {
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo-text h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #667eea;
+}
+
+.logo-text span {
+  color: #764ba2;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: #333;
+  font-weight: 500;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #667eea;
+  background: rgba(102, 126, 234, 0.1);
+  transform: translateY(-2px);
+}
+
+.nav-link.active {
+  color: #667eea;
+  background: rgba(102, 126, 234, 0.15);
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Estilos responsivos para móvil */
+.navbar-toggler {
+  border: none;
+  padding: 0.5rem;
+  margin-left: auto;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .logo-text {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+  }
+
+  .logo-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .navbar-collapse {
+    margin-top: 1rem;
+    background: rgba(255, 255, 255, 0.98);
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-nav {
+    margin-left: 0;
+    gap: 0.5rem;
+  }
+
+  .nav-link {
+    padding: 0.75rem 1rem;
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    border: 1px solid rgba(102, 126, 234, 0.2);
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo-text h1 {
+    font-size: 1.3rem;
+  }
+
+  .navbar {
+    padding: 0.75rem 1rem;
+  }
+}
+/*navbar end*/
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom, #0F2A4A, #1a345d);
+    padding: 110px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 2.8rem;
+    margin-bottom: 12px;
+}
+
+.hero-text p {
+    font-size: 1.15rem;
+    opacity: 0.9;
+}
+
+/* Historia Section */
+.historia {
+    padding: 70px 12%;
+    text-align: center;
+}
+
+.historia h2 {
+    font-size: 2.2rem;
+    color: #0F2A4A;
+    margin-bottom: 20px;
+}
+
+.historia .intro {
+    max-width: 800px;
+    margin: auto;
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.card {
+    width: 310px;
+    padding: 28px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+    transition: all 0.35s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.18);
+    background: rgba(255, 255, 255, 0.27);
+}
+
+.card h3 {
+    color: #0F2A4A;
+    font-size: 1.35rem;
+    margin-bottom: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+.card p {
+    color: #333;
+    font-size: 0.98rem;
+    line-height: 1.55;
+    opacity: 0.9;
+}
+
+/* Video Section */
+.video-section {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.video-section h2 {
+    color: #0F2A4A;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.video-section p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.video {
+    width: 80%;
+    max-width: 900px;
+    height: 500px; 
+    margin: 25px auto;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    display: block;
+    object-fit: cover;
+}
+
+/*footer start*/
+.footer {
+    background-color: #0F2A4A;
+    padding: 50px 0 30px;
+}
+
+.containerfooter {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.containerfooter > div {
+    flex: 1;
+    min-width: 260px;
+}
+
+.containerfooter h4 {
+    color: white;
+    margin-bottom: 14px;
+    font-size: 1.17rem;
+}
+
+.containerfooter p {
+    color: #b1b1b1;
+    margin-bottom: 12px;
+    line-height: 1.55;
+}
+
+.textofooter h1 {
+    color: white;
+    margin-bottom: 18px;
+}
+
+.mt20 {
+    margin-top: 22px;
+}
+
+/* Redes sociales */
+.accesosrapidos {
+    margin-left: auto;
+    padding-left: 80px;
+}
+
+.footer a,
+.containerfooter a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #b1b1b1;
+    margin-bottom: 12px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.accesosrapidos img {
+    width: 23px;
+    filter: brightness(0) invert(1);
+}
+
+.footer a:hover,
+.containerfooter a:hover {
+    color: #fff;
+    transform: translateX(4px);
+    text-decoration: none ;
+}
+
+/* Copyright */
+.copy {
+    text-align: center;
+    color: #ccc;
+    margin-top: 35px;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 20px;
+}
+/*footer end*/
+
+/* ===== RESPONSIVE COMPLETO ===== */
+
+/* Tablets (768px) */
+@media (max-width: 768px) {
+    /* Hero */
+    .hero {
+        padding: 70px 20px;
+    }
+    
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-text p {
+        font-size: 1rem;
+    }
+    
+    /* Historia */
+    .historia {
+        padding: 50px 8%;
+    }
+    
+    .historia h2 {
+        font-size: 1.8rem;
+    }
+    
+    .historia .intro {
+        font-size: 1rem;
+        margin-bottom: 40px;
+    }
+    
+    /* Cards */
+    .card {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    /* Video */
+    .video {
+        width: 95%;
+        height: 350px; 
+    }
+    
+    .video-section {
+        margin-top: 60px;
+    }
+    
+    .video-section h2 {
+        font-size: 1.7rem;
+    }
+    
+    .containerfooter {
+        width: 95%;
+        gap: 35px;
+    }
+
+    .accesosrapidos {
+        padding-left: 0;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+/* Móviles (576px) */
+@media (max-width: 576px) {
+    .hero {
+        padding: 50px 15px;
+    }
+    
+    .hero-text h1 {
+        font-size: 1.6rem;
+    }
+    
+    .hero-text p {
+        font-size: 0.95rem;
+    }
+    
+    .historia {
+        padding: 40px 5%;
+    }
+    
+    .historia h2 {
+        font-size: 1.5rem;
+    }
+    
+    .historia .intro {
+        font-size: 0.95rem;
+    }
+    
+    .cards {
+        gap: 20px;
+    }
+    
+    .card {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .card h3 {
+        font-size: 1.2rem;
+    }
+    
+    .card p {
+        font-size: 0.9rem;
+    }
+    
+    .video-section {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .video-section h2 {
+        font-size: 1.4rem;
+    }
+    
+    .video-section p {
+        font-size: 0.9rem;
+    }
+    
+    .video {
+        width: 100%;
+        height: 250px; 
+        border-radius: 10px;
+    }
+    
+    /* Footer */
+    .footer {
+        padding: 40px 0 25px;
+    }
+    
+    .containerfooter {
+        width: 90%;
+        gap: 25px;
+    }
+    
+    .containerfooter > div {
+        min-width: 100%;
+        text-align: center;
+    }
+    
+    .accesosrapidos {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .footer a,
+    .containerfooter a {
+        justify-content: center;
+    }
+    
+    .copy {
+        font-size: 0.85rem;
+        margin-top: 25px;
+    }
+}
+
+/* Móviles muy pequeños (400px) */
+@media (max-width: 400px) {
+    .hero-text h1 {
+        font-size: 1.4rem;
+    }
+    
+    .historia h2 {
+        font-size: 1.3rem;
+    }
+    
+    .card {
+        padding: 18px;
+    }
+    
+    .video-section h2 {
+        font-size: 1.2rem;
+    }
+}

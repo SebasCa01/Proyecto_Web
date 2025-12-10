@@ -1,0 +1,76 @@
+{
+    "ropaMujer": [
+        {
+            "id" : 1,
+            "imagen" : "assets/img/croptop.png",
+            "descripcion": "Croptop",
+            "precio" : 8000
+        },
+        {
+            "id" : 2,
+            "imagen" : "assets/img/croptop1.png",
+            "descripcion": "Croptop",
+            "precio" : 8000
+        },
+        {
+            "id" : 3,
+            "imagen" : "assets/img/croptop2.png",
+            "descripcion": "Croptop",
+            "precio" : 8000
+        },
+        {
+            "id" : 4,
+            "imagen" : "assets/img/croptop3.png",
+            "descripcion": "Croptop",
+            "precio" : 8000
+        },
+        {
+            "id" : 5,
+            "imagen" : "assets/img/croptop4.png",
+            "descripcion": "Croptop",
+            "precio" : 8000
+        },
+        {
+            "id" : 6,
+            "imagen" : "assets/img/croptop5.png",
+            "descripcion": "Croptop",
+            "precio" : 8000
+        },
+        {
+            "id" : 7,
+            "imagen" : "assets/img/croptop6.png",
+            "descripcion": "Croptop",
+            "precio" : 8000
+        },
+        {
+            "id" : 8,
+            "imagen" : "assets/img/croptop7.png",
+            "descripcion": "Camisa",
+            "precio" : 8000
+        },
+        {
+            "id" : 9,
+            "imagen" : "assets/img/croptop8.png",
+            "descripcion": "Croptop",
+            "precio" : 8000
+        },
+        {
+            "id" : 10,
+            "imagen" : "assets/img/croptop9.png",
+            "descripcion": "Croptop",
+            "precio" : 8000
+        },
+        {
+            "id" : 11,
+            "imagen" : "assets/img/blusa.png",
+            "descripcion": "Blusa",
+            "precio" : 8000
+        },
+        {
+            "id" : 12,
+            "imagen" : "assets/img/body.png",
+            "descripcion": "Body",
+            "precio" : 8000
+        }
+    ]
+}
