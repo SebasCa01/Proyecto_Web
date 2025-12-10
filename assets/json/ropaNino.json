@@ -47,18 +47,6 @@
             "imagen" : "assets/img/setnina1.png",
             "descripcion": "Set de niña",
             "precio" : 5000
-        },
-        {
-            "id" : 9,
-            "imagen" : "assets/img/trajebaño.png",
-            "descripcion": "Traje de baño",
-            "precio" : 6000
-        },
-        {
-            "id" : 10,
-            "imagen" : "assets/img/trajebaño1.png",
-            "descripcion": "Traje de baño",
-            "precio" : 6000
         }
     ]
 }

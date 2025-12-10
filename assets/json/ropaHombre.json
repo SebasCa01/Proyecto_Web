@@ -47,30 +47,6 @@
             "imagen" : "assets/img/camisa7.png",
             "descripcion": "Camisa",
             "precio" : 5000
-        },
-        {
-            "id" : 9,
-            "imagen" : "assets/img/camisa8.png",
-            "descripcion": "Camisa",
-            "precio" : 5000
-        },
-        {
-            "id" : 10,
-            "imagen" : "assets/img/camisa9.png",
-            "descripcion": "Camisa",
-            "precio" : 5000
-        },
-        {
-            "id" : 11,
-            "imagen" : "assets/img/camisa10.png",
-            "descripcion": "Camisa",
-            "precio" : 5000
-        },
-        {
-            "id" : 12,
-            "imagen" : "assets/img/camisa11.png",
-            "descripcion": "Camisa",
-            "precio" : 3000
         }
     ]
 }

@@ -47,30 +47,6 @@
             "imagen" : "assets/img/bolso8.png",
             "descripcion": "Mochila",
             "precio" : 8000
-        },
-        {
-            "id" : 9,
-            "imagen" : "assets/img/bolso5.png",
-            "descripcion": "Mochila",
-            "precio" : 8000
-        },
-        {
-            "id" : 10,
-            "imagen" : "assets/img/bolsorojo.jpeg",
-            "descripcion": "Mochila",
-            "precio" : 8000
-        },
-        {
-            "id" : 11,
-            "imagen" : "assets/img/canguro.png",
-            "descripcion": "Canguro",
-            "precio" : 3500
-        },
-        {
-            "id" : 12,
-            "imagen" : "assets/img/mochila.png",
-            "descripcion": "Mochila",
-            "precio" : 5300
         }
     ]
 }

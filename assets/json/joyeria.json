@@ -47,30 +47,6 @@
             "imagen" : "assets/img/argollas2.png",
             "descripcion": "Argollas medianas",
             "precio" : 2200
-        },
-        {
-            "id" : 9,
-            "imagen" : "assets/img/pulsera.png",
-            "descripcion": "Pulsera",
-            "precio" : 10000
-        },
-        {
-            "id" : 10,
-            "imagen" : "assets/img/pulsera1.png",
-            "descripcion": "Pulsera",
-            "precio" : 9000
-        },
-        {
-            "id" : 11,
-            "imagen" : "assets/img/setjoyeria.png",
-            "descripcion": "Set de collar y aretes",
-            "precio" : 3000
-        },
-        {
-            "id" : 12,
-            "imagen" : "assets/img/setjoyeria1.png",
-            "descripcion": "Set de collar y aretes",
-            "precio" : 3000
         }
     ]
 }
